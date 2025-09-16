@@ -19,3 +19,4 @@ repeating the petals and drawing the circle
 
 the two functions are draw circle and draw petal
 
+Currently, the two variables that work for count are 6 and 8 but I'm working on getting more to work
