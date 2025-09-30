@@ -7,29 +7,22 @@ def draw_circle():
         turtle.right(5)
 
 
-size = 10
-# Can put any value for size of petal
+size = 10 # Can put any value for size of petal
 
-count = 6
-# Change to control amount of petals (only 6 and 8 are working rn)
+count = 6 # Change to control amount of petals (only 6 and 8 are working rn)
 
-initial_angle = 180-13.33*count 
-# b
-# FIX THIS
+initial_angle = 180-13.33*count # b  FIX THIS
 
-sector_angle = 360 / count
-# a
+sector_angle = 360 / count # a
 
 theta = (sector_angle + initial_angle)/40
 
 
-overshoot = 20*theta - initial_angle - sector_angle/2
-# ov
+overshoot = 20*theta - initial_angle - sector_angle/2 # ov
 
 tip_angle = 180-2*overshoot
 
-# Try and get the petals to start and end at the same spot, and then instead of 
-# changing the angle possibly change size of circle
+
 
 def draw_petal():
     for i in range(20):
